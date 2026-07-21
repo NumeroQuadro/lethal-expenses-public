@@ -1,9 +1,11 @@
 import { useState } from 'react'
 
+import { DASHBOARD_TIME_ZONE } from '../config'
 import { selectRecentExpenses } from '../lib/expenses'
 import type { Transaction } from '../types/transaction'
 
 interface RecentTransactionsProps {
+  timeZone?: string
   transactions: Transaction[]
 }
 
@@ -19,17 +21,21 @@ function formatAmount(amount: string): string {
   }).format(value)
 }
 
-function formatDate(value: string): string {
+function formatDate(value: string, timeZone = DASHBOARD_TIME_ZONE): string {
   return new Intl.DateTimeFormat('ru-RU', {
     day: '2-digit',
     hour: '2-digit',
     minute: '2-digit',
     month: '2-digit',
+    timeZone,
     year: 'numeric',
   }).format(new Date(value))
 }
 
-export function RecentTransactions({ transactions }: RecentTransactionsProps) {
+export function RecentTransactions({
+  timeZone = DASHBOARD_TIME_ZONE,
+  transactions,
+}: RecentTransactionsProps) {
   const [isExpanded, setIsExpanded] = useState(false)
   const [page, setPage] = useState(0)
 
@@ -78,7 +84,7 @@ export function RecentTransactions({ transactions }: RecentTransactionsProps) {
             <tbody>
               {visibleTransactions.map((transaction) => (
                 <tr key={transaction.id}>
-                  <td>{formatDate(transaction.date)}</td>
+                  <td>{formatDate(transaction.date, timeZone)}</td>
                   <td>
                     <div className="recent-table__description">
                       <span className="recent-table__merchant">{transaction.merchant_raw}</span>

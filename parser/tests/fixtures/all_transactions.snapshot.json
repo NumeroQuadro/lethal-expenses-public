@@ -1,6 +1,6 @@
 [
   {
-    "id": "yandex-eds-2026-04-25T15:00:00+03:00-51ec35bd4399",
+    "id": "yandex-eds-2026-04-25T15:00:00+03:00-68675e71a94d",
     "date": "2026-04-25T15:00:00+03:00",
     "amount": "600.00",
     "currency": "RUB",
@@ -16,8 +16,8 @@
     "raw": {
       "processing_date": "25.04.2026",
       "card": null,
-      "amount_operation": "+ 600,00 \u0000",
-      "amount_esp": "+ 600,00 \u0000",
+      "amount_operation": "600.00",
+      "amount_esp": "600.00",
       "source_name": "yandex_edge.pdf",
       "sources": [
         "yandex_edge.pdf"
@@ -25,7 +25,7 @@
     }
   },
   {
-    "id": "yandex-1111-2026-04-25T14:00:00+03:00-6bf35caebd29",
+    "id": "yandex-1111-2026-04-25T14:00:00+03:00-d3d01a2c763e",
     "date": "2026-04-25T14:00:00+03:00",
     "amount": "-100.00",
     "currency": "RUB",
@@ -41,8 +41,8 @@
     "raw": {
       "processing_date": "25.04.2026",
       "card": "*1111",
-      "amount_operation": "– 100,00 \u0000",
-      "amount_esp": "– 100,00 \u0000",
+      "amount_operation": "-100.00",
+      "amount_esp": "-100.00",
       "source_name": "yandex_edge.pdf",
       "sources": [
         "yandex_edge.pdf"
@@ -50,7 +50,7 @@
     }
   },
   {
-    "id": "yandex-1111-2026-04-25T13:05:00+03:00-1b1a0fd4e736",
+    "id": "yandex-1111-2026-04-25T13:05:00+03:00-f863b3047243",
     "date": "2026-04-25T13:05:00+03:00",
     "amount": "-250.00",
     "currency": "RUB",
@@ -66,8 +66,8 @@
     "raw": {
       "processing_date": "25.04.2026",
       "card": "*1111",
-      "amount_operation": "– 250,00 \u0000",
-      "amount_esp": "– 250,00 \u0000",
+      "amount_operation": "-250.00",
+      "amount_esp": "-250.00",
       "source_name": "yandex_edge.pdf",
       "sources": [
         "yandex_edge.pdf"
@@ -75,7 +75,7 @@
     }
   },
   {
-    "id": "yandex-1111-2026-04-25T12:00:00+03:00-8ba220fda881",
+    "id": "yandex-1111-2026-04-25T12:00:00+03:00-9117879c8813",
     "date": "2026-04-25T12:00:00+03:00",
     "amount": "-5432.10",
     "currency": "RUB",
@@ -91,8 +91,8 @@
     "raw": {
       "processing_date": "25.04.2026",
       "card": "*1111",
-      "amount_operation": "– 5 432,10 \u0000",
-      "amount_esp": "– 5 432,10 \u0000",
+      "amount_operation": "-5432.10",
+      "amount_esp": "-5432.10",
       "source_name": "yandex_edge.pdf",
       "sources": [
         "yandex_edge.pdf"
@@ -100,31 +100,7 @@
     }
   },
   {
-    "id": "ozon-9911-20260425-00:00-a1d0445ffb48",
-    "date": "2026-04-25T00:00:00+03:00",
-    "amount": "-321.00",
-    "currency": "RUB",
-    "merchant_raw": "Оплата сервиса Ozon for Business",
-    "description": "Оплата сервиса Ozon for Business",
-    "bank": "ozon",
-    "account": "****9911",
-    "precision": "date",
-    "category": "Прочее",
-    "is_transfer": false,
-    "is_external_account": false,
-    "transfer_pair_id": null,
-    "raw": {
-      "document": "DOC-101",
-      "currency": "RUB",
-      "is_likely_self_transfer": false,
-      "source_name": "ozon_edge.pdf",
-      "sources": [
-        "ozon_edge.pdf"
-      ]
-    }
-  },
-  {
-    "id": "ozon-9911-20260425-00:00-69d4fdbb0818",
+    "id": "ozon-9911-20260425-00:00-e918d57363f3",
     "date": "2026-04-25T00:00:00+03:00",
     "amount": "-1000.00",
     "currency": "RUB",
@@ -148,7 +124,7 @@
     }
   },
   {
-    "id": "ozon-9911-20260425-00:00-57d0f9df9c45",
+    "id": "ozon-9911-20260425-00:00-c9d17a1abc29",
     "date": "2026-04-25T00:00:00+03:00",
     "amount": "2000.00",
     "currency": "RUB",
@@ -172,7 +148,31 @@
     }
   },
   {
-    "id": "yandex-eds-2026-04-24T14:15:00+03:00-64fff891be0d",
+    "id": "ozon-9911-20260425-00:00-8606a3dfd268",
+    "date": "2026-04-25T00:00:00+03:00",
+    "amount": "-321.00",
+    "currency": "RUB",
+    "merchant_raw": "Оплата сервиса Ozon for Business",
+    "description": "Оплата сервиса Ozon for Business",
+    "bank": "ozon",
+    "account": "****9911",
+    "precision": "date",
+    "category": "Прочее",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "document": "DOC-101",
+      "currency": "RUB",
+      "is_likely_self_transfer": false,
+      "source_name": "ozon_edge.pdf",
+      "sources": [
+        "ozon_edge.pdf"
+      ]
+    }
+  },
+  {
+    "id": "yandex-eds-2026-04-24T14:15:00+03:00-ea29472b4b09",
     "date": "2026-04-24T14:15:00+03:00",
     "amount": "-540.40",
     "currency": "RUB",
@@ -188,8 +188,8 @@
     "raw": {
       "processing_date": "24.04.2026",
       "card": null,
-      "amount_operation": "– 540,40 \u0000",
-      "amount_esp": "– 540,40 \u0000",
+      "amount_operation": "-540.40",
+      "amount_esp": "-540.40",
       "source_name": "yandex_minimal.pdf",
       "sources": [
         "yandex_minimal.pdf"
@@ -197,7 +197,7 @@
     }
   },
   {
-    "id": "yandex-eds-2026-04-24T13:05:00+03:00-f2526994d38e",
+    "id": "yandex-eds-2026-04-24T13:05:00+03:00-8cd860c6a948",
     "date": "2026-04-24T13:05:00+03:00",
     "amount": "-3000.00",
     "currency": "RUB",
@@ -213,8 +213,8 @@
     "raw": {
       "processing_date": "24.04.2026",
       "card": null,
-      "amount_operation": "– 3 000,00 \u0000",
-      "amount_esp": "– 3 000,00 \u0000",
+      "amount_operation": "-3000.00",
+      "amount_esp": "-3000.00",
       "source_name": "yandex_minimal.pdf",
       "sources": [
         "yandex_minimal.pdf"
@@ -222,7 +222,7 @@
     }
   },
   {
-    "id": "yandex-eds-2026-04-24T12:50:00+03:00-c3f599a188f0",
+    "id": "yandex-eds-2026-04-24T12:50:00+03:00-9caa68363228",
     "date": "2026-04-24T12:50:00+03:00",
     "amount": "5000.00",
     "currency": "RUB",
@@ -234,12 +234,12 @@
     "category": "Переводы",
     "is_transfer": true,
     "is_external_account": false,
-    "transfer_pair_id": "275f4a8fa081c45a",
+    "transfer_pair_id": "0e52a6b72bcd9c3e",
     "raw": {
       "processing_date": "24.04.2026",
       "card": null,
-      "amount_operation": "+ 5 000,00 \u0000",
-      "amount_esp": "+ 5 000,00 \u0000",
+      "amount_operation": "5000.00",
+      "amount_esp": "5000.00",
       "source_name": "yandex_minimal.pdf",
       "sources": [
         "yandex_minimal.pdf"
@@ -247,7 +247,7 @@
     }
   },
   {
-    "id": "yandex-9922-2026-04-24T11:40:00+03:00-aa021d9716f5",
+    "id": "yandex-9922-2026-04-24T11:40:00+03:00-b766071466b7",
     "date": "2026-04-24T11:40:00+03:00",
     "amount": "7000.00",
     "currency": "RUB",
@@ -263,8 +263,8 @@
     "raw": {
       "processing_date": "24.04.2026",
       "card": "*9922",
-      "amount_operation": "+ 7 000,00 \u0000",
-      "amount_esp": "+ 7 000,00 \u0000",
+      "amount_operation": "7000.00",
+      "amount_esp": "7000.00",
       "source_name": "yandex_minimal.pdf",
       "sources": [
         "yandex_minimal.pdf"
@@ -272,7 +272,7 @@
     }
   },
   {
-    "id": "yandex-9922-2026-04-24T10:30:00+03:00-67582b2517d7",
+    "id": "yandex-9922-2026-04-24T10:30:00+03:00-23f13892ea44",
     "date": "2026-04-24T10:30:00+03:00",
     "amount": "-399.00",
     "currency": "RUB",
@@ -288,8 +288,8 @@
     "raw": {
       "processing_date": "24.04.2026",
       "card": "*9922",
-      "amount_operation": "– 399,00 \u0000",
-      "amount_esp": "– 399,00 \u0000",
+      "amount_operation": "-399.00",
+      "amount_esp": "-399.00",
       "source_name": "yandex_minimal.pdf",
       "sources": [
         "yandex_minimal.pdf"
@@ -297,7 +297,7 @@
     }
   },
   {
-    "id": "yandex-9922-2026-04-24T09:20:00+03:00-d7dfb65be1a2",
+    "id": "yandex-9922-2026-04-24T09:20:00+03:00-8d626c134d8b",
     "date": "2026-04-24T09:20:00+03:00",
     "amount": "250.00",
     "currency": "RUB",
@@ -313,8 +313,8 @@
     "raw": {
       "processing_date": "24.04.2026",
       "card": "*9922",
-      "amount_operation": "+ 250,00 \u0000",
-      "amount_esp": "+ 250,00 \u0000",
+      "amount_operation": "250.00",
+      "amount_esp": "250.00",
       "source_name": "yandex_minimal.pdf",
       "sources": [
         "yandex_minimal.pdf"
@@ -322,7 +322,7 @@
     }
   },
   {
-    "id": "yandex-9922-2026-04-24T08:10:00+03:00-d6bf5838f39c",
+    "id": "yandex-9922-2026-04-24T08:10:00+03:00-230073e75133",
     "date": "2026-04-24T08:10:00+03:00",
     "amount": "-1234.56",
     "currency": "RUB",
@@ -338,8 +338,8 @@
     "raw": {
       "processing_date": "24.04.2026",
       "card": "*9922",
-      "amount_operation": "– 1 234,56 \u0000",
-      "amount_esp": "– 1 234,56 \u0000",
+      "amount_operation": "-1234.56",
+      "amount_esp": "-1234.56",
       "source_name": "yandex_minimal.pdf",
       "sources": [
         "yandex_minimal.pdf"
@@ -347,7 +347,55 @@
     }
   },
   {
-    "id": "ozon-3456-20260424-00:00-e4c0edddff47",
+    "id": "ozon-3456-20260424-00:00-98397fd5443e",
+    "date": "2026-04-24T00:00:00+03:00",
+    "amount": "25.17",
+    "currency": "RUB",
+    "merchant_raw": "Выплата процентов по счету 40817810000000123456.",
+    "description": "Выплата процентов по счету 40817810000000123456.",
+    "bank": "ozon",
+    "account": "****3456",
+    "precision": "date",
+    "category": "Прочее",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "document": "DOC-002",
+      "currency": "RUB",
+      "is_likely_self_transfer": false,
+      "source_name": "ozon_minimal.pdf",
+      "sources": [
+        "ozon_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "ozon-3456-20260424-00:00-8c19180bf4db",
+    "date": "2026-04-24T00:00:00+03:00",
+    "amount": "-5000.00",
+    "currency": "RUB",
+    "merchant_raw": "Перевод собственных средств. Без НДС.",
+    "description": "Перевод собственных средств. Без НДС.",
+    "bank": "ozon",
+    "account": "****3456",
+    "precision": "date",
+    "category": "Переводы",
+    "is_transfer": true,
+    "is_external_account": false,
+    "transfer_pair_id": "0e52a6b72bcd9c3e",
+    "raw": {
+      "document": "DOC-001",
+      "currency": "RUB",
+      "is_likely_self_transfer": true,
+      "source_name": "ozon_minimal.pdf",
+      "sources": [
+        "ozon_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "ozon-3456-20260424-00:00-6c42a173b6f6",
     "date": "2026-04-24T00:00:00+03:00",
     "amount": "-12345.67",
     "currency": "RUB",
@@ -371,31 +419,7 @@
     }
   },
   {
-    "id": "ozon-3456-20260424-00:00-d80b6185c46d",
-    "date": "2026-04-24T00:00:00+03:00",
-    "amount": "-5000.00",
-    "currency": "RUB",
-    "merchant_raw": "Перевод собственных средств. Без НДС.",
-    "description": "Перевод собственных средств. Без НДС.",
-    "bank": "ozon",
-    "account": "****3456",
-    "precision": "date",
-    "category": "Переводы",
-    "is_transfer": true,
-    "is_external_account": false,
-    "transfer_pair_id": "275f4a8fa081c45a",
-    "raw": {
-      "document": "DOC-001",
-      "currency": "RUB",
-      "is_likely_self_transfer": true,
-      "source_name": "ozon_minimal.pdf",
-      "sources": [
-        "ozon_minimal.pdf"
-      ]
-    }
-  },
-  {
-    "id": "ozon-3456-20260424-00:00-d2e5b5793805",
+    "id": "ozon-3456-20260424-00:00-0e5651049934",
     "date": "2026-04-24T00:00:00+03:00",
     "amount": "-199.00",
     "currency": "RUB",
@@ -410,30 +434,6 @@
     "transfer_pair_id": null,
     "raw": {
       "document": "DOC-003",
-      "currency": "RUB",
-      "is_likely_self_transfer": false,
-      "source_name": "ozon_minimal.pdf",
-      "sources": [
-        "ozon_minimal.pdf"
-      ]
-    }
-  },
-  {
-    "id": "ozon-3456-20260424-00:00-a32a84016e95",
-    "date": "2026-04-24T00:00:00+03:00",
-    "amount": "25.17",
-    "currency": "RUB",
-    "merchant_raw": "Выплата процентов по счету 40817810000000123456.",
-    "description": "Выплата процентов по счету 40817810000000123456.",
-    "bank": "ozon",
-    "account": "****3456",
-    "precision": "date",
-    "category": "Прочее",
-    "is_transfer": false,
-    "is_external_account": false,
-    "transfer_pair_id": null,
-    "raw": {
-      "document": "DOC-002",
       "currency": "RUB",
       "is_likely_self_transfer": false,
       "source_name": "ozon_minimal.pdf",

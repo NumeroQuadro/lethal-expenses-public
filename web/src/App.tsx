@@ -6,6 +6,7 @@ import { OverviewPage } from "./components/OverviewPage";
 import { PlaceholderView } from "./components/PlaceholderView";
 import { SettingsPage } from "./components/SettingsPage";
 import { Sidebar, type DashboardView } from "./components/Sidebar";
+import { DASHBOARD_TIME_ZONE } from "./config";
 import { ExpenseDashboardProvider } from "./context/expenseDashboard";
 import { transactions } from "./data/transactions";
 import { useExpenses } from "./hooks/useExpenses";
@@ -16,7 +17,9 @@ const TRANSACTIONS_PLACEHOLDER_COPY =
 
 function App() {
   const [currentView, setCurrentView] = useState<DashboardView>("overview");
-  const expenseState = useExpenses(transactions);
+  const expenseState = useExpenses(transactions, {
+    timeZone: DASHBOARD_TIME_ZONE,
+  });
 
   let content;
 
@@ -26,7 +29,11 @@ function App() {
       break;
     case "analytics":
       content = (
-        <AnalyticsPage transactions={expenseState.analyticsTransactions} />
+        <AnalyticsPage
+          transactions={expenseState.analyticsTransactions}
+          now={expenseState.selectorOptions.now}
+          timeZone={expenseState.selectorOptions.timeZone}
+        />
       );
       break;
     case "categories":

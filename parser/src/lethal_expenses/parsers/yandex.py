@@ -424,14 +424,16 @@ class YandexCardParser(BaseYandexParser):
         account = self._normalize_account(card)
         occurred_at = self.parse_date_ru(operation_date, operation_time)
         amount = self.parse_amount(amount_operation)
+        normalized_amount_operation = f"{amount:.2f}"
+        normalized_amount_esp = f"{self.parse_amount(amount_esp):.2f}"
         merchant_raw = self._extract_merchant_raw(description_lines)
         account_token = "eds" if account == EDS_ACCOUNT else re.sub(r"\D", "", account)[-4:]
         row_hash = self._build_row_hash(
             description,
             processing_date,
             account,
-            amount_operation,
-            amount_esp,
+            normalized_amount_operation,
+            normalized_amount_esp,
         )
 
         return Transaction(
@@ -446,8 +448,8 @@ class YandexCardParser(BaseYandexParser):
             raw={
                 "processing_date": processing_date,
                 "card": card,
-                "amount_operation": amount_operation,
-                "amount_esp": amount_esp,
+                "amount_operation": normalized_amount_operation,
+                "amount_esp": normalized_amount_esp,
                 "source_name": source_name,
             },
         )
@@ -502,10 +504,12 @@ class YandexSavingsParser(BaseYandexParser):
     ) -> Transaction:
         normalized_description = self.clean_merchant(description)
         occurred_at = self.parse_date_ru(operation_date)
+        amount = self.parse_amount(amount_text)
+        normalized_amount = f"{amount:.2f}"
         row_hash = self._build_row_hash(
             normalized_description,
             operation_date,
-            amount_text,
+            normalized_amount,
             account,
         )
         account_token = re.sub(r"\D", "", account)[-4:]
@@ -513,7 +517,7 @@ class YandexSavingsParser(BaseYandexParser):
         return Transaction(
             id=f"yandex-{account_token}-{occurred_at.isoformat()}-{row_hash}",
             date=occurred_at,
-            amount=self.parse_amount(amount_text),
+            amount=amount,
             merchant_raw=normalized_description,
             description=normalized_description,
             bank=self.bank,
@@ -521,7 +525,7 @@ class YandexSavingsParser(BaseYandexParser):
             precision="date",
             raw={
                 "source_name": source_name,
-                "amount_operation": amount_text,
+                "amount_operation": normalized_amount,
             },
         )
 

@@ -200,13 +200,14 @@ class BaseOzonParser(BaseParser):
         document = match.group("document")
         description = self.clean_merchant(rest[: amount_tail_match.start()])
         amount_text = amount_tail_match.group("amount")
-        row_hash = self._row_hash(document, description, amount_text)
+        amount = self.parse_amount(amount_text)
+        row_hash = self._row_hash(document, description, f"{amount:.2f}")
         is_likely_self_transfer = description.startswith(SELF_TRANSFER_TEXT)
 
         return Transaction(
             id=self.build_id("ozon", header_account, occurred_at, row_hash),
             date=occurred_at,
-            amount=self.parse_amount(amount_text),
+            amount=amount,
             merchant_raw=description,
             description=description,
             bank=self.bank,
@@ -386,14 +387,15 @@ class OzonCardParser(BaseOzonParser):
         description = self.clean_merchant(" ".join(description_parts))
         merchant_raw = self._extract_card_merchant_raw(description)
         occurred_at = self.parse_date_ru(date_text, time_text)
-        row_hash = self._row_hash(document, description, amount_text)
+        amount = self.parse_amount(amount_text)
+        row_hash = self._row_hash(document, description, f"{amount:.2f}")
         is_likely_self_transfer = description.startswith("Перевод собственных средств")
 
         return (
             Transaction(
                 id=self.build_id("ozon", anchor_line.account, occurred_at, row_hash),
                 date=occurred_at,
-                amount=self.parse_amount(amount_text),
+                amount=amount,
                 merchant_raw=merchant_raw,
                 description=description,
                 bank=self.bank,
@@ -627,13 +629,14 @@ class OzonSavingsParser(BaseOzonParser):
 
         description = self.clean_merchant(" ".join(description_parts))
         occurred_at = self.parse_date_ru(date_text, time_text)
-        row_hash = self._row_hash(document, description, amount_text)
+        amount = self.parse_amount(amount_text)
+        row_hash = self._row_hash(document, description, f"{amount:.2f}")
         is_likely_self_transfer = description.startswith("Перевод собственных средств")
 
         return Transaction(
             id=self.build_id("ozon", header_account, occurred_at, row_hash),
             date=occurred_at,
-            amount=self.parse_amount(amount_text),
+            amount=amount,
             merchant_raw=description,
             description=description,
             bank=self.bank,

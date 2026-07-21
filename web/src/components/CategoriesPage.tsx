@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 
+import { DASHBOARD_TIME_ZONE } from "../config";
 import { useExpenseDashboard } from "../context/expenseDashboardContext";
 import {
   displayMerchant,
@@ -26,12 +27,16 @@ function formatPercent(value: number): string {
   }).format(value);
 }
 
-function formatDate(value: string): string {
+function formatDate(
+  value: string,
+  timeZone = DASHBOARD_TIME_ZONE,
+): string {
   return new Intl.DateTimeFormat("ru-RU", {
     day: "2-digit",
     hour: "2-digit",
     minute: "2-digit",
     month: "2-digit",
+    timeZone,
     year: "numeric",
   }).format(new Date(value));
 }
@@ -314,7 +319,10 @@ export function CategoriesPage() {
                                       className="categories-page__recent-row"
                                     >
                                       <span className="categories-page__recent-date">
-                                        {formatDate(transaction.date)}
+                                        {formatDate(
+                                          transaction.date,
+                                          selectorOptions.timeZone,
+                                        )}
                                       </span>
                                       <span className="categories-page__recent-merchant">
                                         {truncateLabel(

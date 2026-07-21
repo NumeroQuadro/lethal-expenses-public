@@ -16,12 +16,21 @@ export function OverviewPage({ expenseState }: OverviewPageProps) {
         transactions={expenseState.filteredTransactions}
         referenceTransactions={expenseState.periodReferenceTransactions}
         period={expenseState.period}
+        now={expenseState.selectorOptions.now}
+        timeZone={expenseState.selectorOptions.timeZone}
       />
       <Filters />
-      <RecentTransactions transactions={expenseState.filteredTransactions} />
+      <RecentTransactions
+        transactions={expenseState.filteredTransactions}
+        timeZone={expenseState.selectorOptions.timeZone}
+      />
       <div className="dashboard-bottom">
         <CategoryBars transactions={expenseState.filteredTransactions} />
-        <ByDayBars transactions={expenseState.filteredTransactions} />
+        <ByDayBars
+          transactions={expenseState.filteredTransactions}
+          now={expenseState.selectorOptions.now}
+          timeZone={expenseState.selectorOptions.timeZone}
+        />
       </div>
     </div>
   );
