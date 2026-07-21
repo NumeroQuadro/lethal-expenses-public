@@ -1,0 +1,126 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Overview > renders the top overview cards from the active filtered transaction set 1`] = `
+<section
+  aria-label="Обзор"
+  class="overview"
+>
+  <header
+    class="overview__header"
+  >
+    <p
+      class="overview__eyebrow"
+    >
+      Lethal Expenses
+    </p>
+    <h1
+      class="overview__title panel-title glow"
+    >
+      ОБЗОР
+    </h1>
+  </header>
+  <div
+    class="overview__cards"
+  >
+    <article
+      class="overview-card frame"
+    >
+      <p
+        class="overview-card__label panel-title"
+      >
+        ПОТРАЧЕНО
+      </p>
+      <p
+        class="overview-card__value glow"
+        data-testid="overview-spent-value"
+      >
+        2 600,00
+         ₽
+      </p>
+      <p
+        class="overview-card__meta"
+      >
+        / 
+        10 000
+         ₽
+         
+        за месяц
+      </p>
+      <div
+        aria-hidden="true"
+        class="quota-bar"
+      >
+        <div
+          class="quota-bar__fill"
+          style="background-color: var(--fg-0); width: 26%;"
+        />
+      </div>
+    </article>
+    <article
+      class="overview-card frame"
+    >
+      <p
+        class="overview-card__label panel-title"
+      >
+        ОСТАЛОСЬ
+      </p>
+      <p
+        class="overview-card__value glow"
+      >
+        7 400,00
+         ₽
+      </p>
+      <p
+        class="overview-card__meta"
+      >
+        74
+        % квоты
+      </p>
+    </article>
+    <article
+      class="overview-card frame"
+    >
+      <p
+        class="overview-card__label panel-title"
+      >
+        СЕГОДНЯ
+      </p>
+      <p
+        class="overview-card__value glow"
+      >
+        1 550,00
+         ₽
+      </p>
+      <p
+        class="overview-card__meta"
+      >
+        2
+         
+        траты
+      </p>
+    </article>
+    <article
+      class="overview-card frame"
+    >
+      <p
+        class="overview-card__label panel-title"
+      >
+        В ЭТОМ МЕСЯЦЕ
+      </p>
+      <p
+        class="overview-card__value glow"
+      >
+        2 600,00
+         ₽
+      </p>
+      <p
+        class="overview-card__meta"
+      >
+        4
+         
+        траты
+      </p>
+    </article>
+  </div>
+</section>
+`;

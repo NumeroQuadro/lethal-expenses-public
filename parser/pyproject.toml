@@ -1,0 +1,66 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lethal-expenses"
+version = "0.1.0"
+description = "Offline parsers for the Lethal Expenses project"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "click>=8.1",
+  "pdfplumber>=0.11",
+  "PyYAML>=6",
+  "pydantic>=2",
+  "python-dateutil>=2.9",
+  "rapidfuzz>=3.9",
+]
+
+[project.scripts]
+lethal-expenses = "lethal_expenses.cli:app"
+
+[project.optional-dependencies]
+dev = [
+  "hypothesis>=6.152",
+  "pre-commit>=4.6",
+  "pyright>=1.1.390",
+  "pytest>=8.3",
+  "pytest-cov>=7.1",
+  "reportlab>=4.2",
+  "ruff>=0.11",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lethal_expenses"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "--cov=src/lethal_expenses --cov-branch --cov-report=term-missing"
+
+[tool.coverage.run]
+branch = true
+source = ["src/lethal_expenses"]
+
+[tool.coverage.report]
+fail_under = 85
+show_missing = true
+skip_covered = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/conftest.py" = ["E501"]
+
+[tool.pyright]
+include = ["src", "tests"]
+pythonVersion = "3.12"
+typeCheckingMode = "strict"
+venvPath = ".."
+venv = ".venv"

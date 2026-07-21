@@ -1,0 +1,773 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AnalyticsPage > renders the all-time analytics layout 1`] = `
+<section
+  aria-label="Аналитика"
+  class="analytics-page"
+>
+  <header
+    class="analytics-page__header"
+  >
+    <p
+      class="analytics-page__eyebrow"
+    >
+      Lethal Expenses
+    </p>
+    <h1
+      class="analytics-page__title panel-title glow"
+    >
+      АНАЛИТИКА
+    </h1>
+    <p
+      class="analytics-page__copy"
+    >
+      All-time retrospective view. Периодные чипы сюда не вмешиваются, но скрытие переводов и внешних счетов остаётся в силе.
+    </p>
+  </header>
+  <div
+    class="analytics-summary"
+    data-testid="analytics-summary"
+  >
+    <article
+      class="analytics-card frame"
+    >
+      <p
+        class="analytics-card__label panel-title"
+      >
+        ВСЕГО
+      </p>
+      <p
+        class="analytics-card__value glow"
+      >
+        12 650,00
+         ₽
+      </p>
+      <p
+        class="analytics-card__meta"
+      >
+        all-time расход
+      </p>
+    </article>
+    <article
+      class="analytics-card frame"
+    >
+      <p
+        class="analytics-card__label panel-title"
+      >
+        СРЕДН/МЕС
+      </p>
+      <p
+        class="analytics-card__value glow"
+      >
+        3 162,50
+         ₽
+      </p>
+      <p
+        class="analytics-card__meta"
+      >
+        по месяцам с тратами
+      </p>
+    </article>
+    <article
+      class="analytics-card frame"
+    >
+      <p
+        class="analytics-card__label panel-title"
+      >
+        ТОП КАТ-Я
+      </p>
+      <p
+        class="analytics-card__value glow analytics-card__value--compact"
+      >
+        Покупки
+      </p>
+      <p
+        class="analytics-card__meta"
+      >
+        64,8
+        % без переводов
+      </p>
+    </article>
+    <article
+      class="analytics-card frame"
+    >
+      <p
+        class="analytics-card__label panel-title"
+      >
+        МАКС МЕСЯЦ
+      </p>
+      <p
+        class="analytics-card__value glow analytics-card__value--compact"
+      >
+        ЯНВАРЬ 2026
+      </p>
+      <p
+        class="analytics-card__meta"
+      >
+        4 300,00
+         ₽
+      </p>
+    </article>
+  </div>
+  <section
+    aria-label="ПО МЕСЯЦАМ"
+    class="monthly-bars frame"
+  >
+    <div
+      class="monthly-bars__header"
+    >
+      <div>
+        <p
+          class="monthly-bars__eyebrow"
+        >
+          All-time Timeline
+        </p>
+        <h2
+          class="monthly-bars__title panel-title glow"
+        >
+          ПО МЕСЯЦАМ
+        </h2>
+      </div>
+    </div>
+    <div
+      class="monthly-bars__list"
+    >
+      <div
+        class="monthly-bars__entry"
+      >
+        <button
+          aria-expanded="false"
+          class="monthly-bars__row monthly-bars__row--button"
+          type="button"
+        >
+          <p
+            class="monthly-bars__label"
+          >
+            АПРЕЛЬ 2026
+          </p>
+          <div
+            aria-hidden="true"
+            class="monthly-bars__bar"
+          >
+            <div
+              class="monthly-bars__fill"
+              style="width: 62.7906976744186%;"
+            />
+          </div>
+          <p
+            class="monthly-bars__value"
+          >
+            <span>
+              2 700,00
+               ₽
+            </span>
+            <span>
+              2
+               
+              траты
+            </span>
+          </p>
+        </button>
+      </div>
+      <div
+        class="monthly-bars__entry"
+      >
+        <button
+          aria-expanded="false"
+          class="monthly-bars__row monthly-bars__row--button"
+          type="button"
+        >
+          <p
+            class="monthly-bars__label"
+          >
+            МАРТ 2026
+          </p>
+          <div
+            aria-hidden="true"
+            class="monthly-bars__bar"
+          >
+            <div
+              class="monthly-bars__fill"
+              style="width: 75.5813953488372%;"
+            />
+          </div>
+          <p
+            class="monthly-bars__value"
+          >
+            <span>
+              3 250,00
+               ₽
+            </span>
+            <span>
+              2
+               
+              траты
+            </span>
+          </p>
+        </button>
+      </div>
+      <div
+        class="monthly-bars__entry"
+      >
+        <button
+          aria-expanded="false"
+          class="monthly-bars__row monthly-bars__row--button"
+          type="button"
+        >
+          <p
+            class="monthly-bars__label"
+          >
+            ФЕВРАЛЬ 2026
+          </p>
+          <div
+            aria-hidden="true"
+            class="monthly-bars__bar"
+          >
+            <div
+              class="monthly-bars__fill"
+              style="width: 55.81395348837209%;"
+            />
+          </div>
+          <p
+            class="monthly-bars__value"
+          >
+            <span>
+              2 400,00
+               ₽
+            </span>
+            <span>
+              3
+               
+              траты
+            </span>
+          </p>
+        </button>
+      </div>
+      <div
+        class="monthly-bars__entry"
+      >
+        <button
+          aria-expanded="false"
+          class="monthly-bars__row monthly-bars__row--button"
+          type="button"
+        >
+          <p
+            class="monthly-bars__label"
+          >
+            ЯНВАРЬ 2026
+          </p>
+          <div
+            aria-hidden="true"
+            class="monthly-bars__bar"
+          >
+            <div
+              class="monthly-bars__fill"
+              style="width: 100%;"
+            />
+          </div>
+          <p
+            class="monthly-bars__value"
+          >
+            <span>
+              4 300,00
+               ₽
+            </span>
+            <span>
+              3
+               
+              траты
+            </span>
+          </p>
+        </button>
+      </div>
+    </div>
+  </section>
+  <div
+    class="analytics-page__grid"
+  >
+    <section
+      aria-label="Траты по категориям"
+      class="category-bars frame"
+    >
+      <div
+        class="category-bars__header"
+      >
+        <div>
+          <p
+            class="category-bars__eyebrow"
+          >
+            Expense Breakdown
+          </p>
+          <h2
+            class="category-bars__title panel-title glow"
+          >
+            ТРАТЫ ПО КАТЕГОРИЯМ
+          </h2>
+        </div>
+      </div>
+      <div
+        class="category-bars__list"
+      >
+        <div
+          class="category-bars__row"
+        >
+          <p
+            class="category-bars__name"
+          >
+            Покупки
+          </p>
+          <div
+            aria-hidden="true"
+            class="category-bars__bar"
+          >
+            <div
+              class="category-bars__fill"
+              style="width: 100%;"
+            />
+          </div>
+          <p
+            class="category-bars__value"
+          >
+            8 200,00
+             ₽ (
+            64,8
+            %)
+          </p>
+        </div>
+        <div
+          class="category-bars__row"
+        >
+          <p
+            class="category-bars__name"
+          >
+            Еда
+          </p>
+          <div
+            aria-hidden="true"
+            class="category-bars__bar"
+          >
+            <div
+              class="category-bars__fill"
+              style="width: 35.36585365853659%;"
+            />
+          </div>
+          <p
+            class="category-bars__value"
+          >
+            2 900,00
+             ₽ (
+            22,9
+            %)
+          </p>
+        </div>
+        <div
+          class="category-bars__row"
+        >
+          <p
+            class="category-bars__name"
+          >
+            Кафе
+          </p>
+          <div
+            aria-hidden="true"
+            class="category-bars__bar"
+          >
+            <div
+              class="category-bars__fill"
+              style="width: 15.853658536585366%;"
+            />
+          </div>
+          <p
+            class="category-bars__value"
+          >
+            1 300,00
+             ₽ (
+            10,3
+            %)
+          </p>
+        </div>
+        <div
+          class="category-bars__row"
+        >
+          <p
+            class="category-bars__name"
+          >
+            Транспорт
+          </p>
+          <div
+            aria-hidden="true"
+            class="category-bars__bar"
+          >
+            <div
+              class="category-bars__fill"
+              style="width: 3.048780487804878%;"
+            />
+          </div>
+          <p
+            class="category-bars__value"
+          >
+            250,00
+             ₽ (
+            2
+            %)
+          </p>
+        </div>
+      </div>
+    </section>
+    <section
+      aria-label="Топ мерчантов"
+      class="top-merchants frame"
+    >
+      <div
+        class="top-merchants__header"
+      >
+        <div>
+          <p
+            class="top-merchants__eyebrow"
+          >
+            Merchant Leaders
+          </p>
+          <h2
+            class="top-merchants__title panel-title glow"
+          >
+            ТОП МЕРЧАНТОВ
+          </h2>
+        </div>
+      </div>
+      <ol
+        class="top-merchants__list"
+      >
+        <li
+          class="top-merchants__row"
+        >
+          <span
+            class="top-merchants__rank"
+          >
+            1
+            .
+          </span>
+          <span
+            class="top-merchants__merchant"
+          >
+            OZON
+          </span>
+          <span
+            class="top-merchants__count"
+          >
+            3
+             
+            траты
+          </span>
+          <span
+            class="top-merchants__total"
+          >
+            5 700,00
+             ₽
+          </span>
+        </li>
+        <li
+          class="top-merchants__row"
+        >
+          <span
+            class="top-merchants__rank"
+          >
+            2
+            .
+          </span>
+          <span
+            class="top-merchants__merchant"
+          >
+            TECHNOPARK
+          </span>
+          <span
+            class="top-merchants__count"
+          >
+            1
+             
+            трата
+          </span>
+          <span
+            class="top-merchants__total"
+          >
+            2 500,00
+             ₽
+          </span>
+        </li>
+        <li
+          class="top-merchants__row"
+        >
+          <span
+            class="top-merchants__rank"
+          >
+            3
+            .
+          </span>
+          <span
+            class="top-merchants__merchant"
+          >
+            PYATEROCHKA
+          </span>
+          <span
+            class="top-merchants__count"
+          >
+            2
+             
+            траты
+          </span>
+          <span
+            class="top-merchants__total"
+          >
+            2 100,00
+             ₽
+          </span>
+        </li>
+        <li
+          class="top-merchants__row"
+        >
+          <span
+            class="top-merchants__rank"
+          >
+            4
+            .
+          </span>
+          <span
+            class="top-merchants__merchant"
+          >
+            KAFE GRUSHENKA
+          </span>
+          <span
+            class="top-merchants__count"
+          >
+            2
+             
+            траты
+          </span>
+          <span
+            class="top-merchants__total"
+          >
+            1 300,00
+             ₽
+          </span>
+        </li>
+        <li
+          class="top-merchants__row"
+        >
+          <span
+            class="top-merchants__rank"
+          >
+            5
+            .
+          </span>
+          <span
+            class="top-merchants__merchant"
+          >
+            MAGNIT
+          </span>
+          <span
+            class="top-merchants__count"
+          >
+            1
+             
+            трата
+          </span>
+          <span
+            class="top-merchants__total"
+          >
+            800,00
+             ₽
+          </span>
+        </li>
+        <li
+          class="top-merchants__row"
+        >
+          <span
+            class="top-merchants__rank"
+          >
+            6
+            .
+          </span>
+          <span
+            class="top-merchants__merchant"
+          >
+            METRO.SPB.RU
+          </span>
+          <span
+            class="top-merchants__count"
+          >
+            1
+             
+            трата
+          </span>
+          <span
+            class="top-merchants__total"
+          >
+            250,00
+             ₽
+          </span>
+        </li>
+      </ol>
+    </section>
+  </div>
+  <section
+    aria-label="Категории по месяцам"
+    class="category-drilldown frame"
+  >
+    <div
+      class="category-drilldown__header"
+    >
+      <div>
+        <p
+          class="category-drilldown__eyebrow"
+        >
+          Category Drill-down
+        </p>
+        <h2
+          class="category-drilldown__title panel-title glow"
+        >
+          КАТЕГОРИИ × МЕСЯЦЫ
+        </h2>
+      </div>
+    </div>
+    <div
+      aria-label="Категории аналитики"
+      class="category-drilldown__chips"
+      role="group"
+    >
+      <button
+        aria-pressed="true"
+        class="filter-chip is-active"
+        type="button"
+      >
+        Покупки
+      </button>
+      <button
+        aria-pressed="false"
+        class="filter-chip"
+        type="button"
+      >
+        Еда
+      </button>
+      <button
+        aria-pressed="false"
+        class="filter-chip"
+        type="button"
+      >
+        Кафе
+      </button>
+      <button
+        aria-pressed="false"
+        class="filter-chip"
+        type="button"
+      >
+        Транспорт
+      </button>
+    </div>
+    <div
+      class="category-drilldown__panel"
+    >
+      <p
+        class="category-drilldown__selected"
+      >
+        Покупки
+      </p>
+      <div
+        class="monthly-bars__list"
+      >
+        <div
+          class="monthly-bars__row"
+        >
+          <p
+            class="monthly-bars__label"
+          >
+            АПРЕЛЬ 2026
+          </p>
+          <div
+            aria-hidden="true"
+            class="monthly-bars__bar"
+          >
+            <div
+              class="monthly-bars__fill"
+              style="width: 90%;"
+            />
+          </div>
+          <p
+            class="monthly-bars__value"
+          >
+            <span>
+              2 700,00
+               ₽
+            </span>
+            <span>
+              2
+               
+              траты
+            </span>
+          </p>
+        </div>
+        <div
+          class="monthly-bars__row"
+        >
+          <p
+            class="monthly-bars__label"
+          >
+            МАРТ 2026
+          </p>
+          <div
+            aria-hidden="true"
+            class="monthly-bars__bar"
+          >
+            <div
+              class="monthly-bars__fill"
+              style="width: 100%;"
+            />
+          </div>
+          <p
+            class="monthly-bars__value"
+          >
+            <span>
+              3 000,00
+               ₽
+            </span>
+            <span>
+              1
+               
+              трата
+            </span>
+          </p>
+        </div>
+        <div
+          class="monthly-bars__row"
+        >
+          <p
+            class="monthly-bars__label"
+          >
+            ЯНВАРЬ 2026
+          </p>
+          <div
+            aria-hidden="true"
+            class="monthly-bars__bar"
+          >
+            <div
+              class="monthly-bars__fill"
+              style="width: 83.33333333333334%;"
+            />
+          </div>
+          <p
+            class="monthly-bars__value"
+          >
+            <span>
+              2 500,00
+               ₽
+            </span>
+            <span>
+              1
+               
+              трата
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+`;

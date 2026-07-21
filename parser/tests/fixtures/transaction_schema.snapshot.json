@@ -1,0 +1,130 @@
+{
+  "$defs": {
+    "BankName": {
+      "enum": [
+        "sberbank",
+        "yandex",
+        "ozon",
+        "spb"
+      ],
+      "type": "string"
+    },
+    "CurrencyCode": {
+      "const": "RUB",
+      "type": "string"
+    },
+    "TransactionPrecision": {
+      "enum": [
+        "second",
+        "minute",
+        "date"
+      ],
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "description": "Canonical transaction contract shared by all parsers and the web app.",
+  "properties": {
+    "account": {
+      "description": "Masked account suffix in the form \"****1234\" or the Yandex `ЭДС` bucket.",
+      "title": "Account",
+      "type": "string"
+    },
+    "amount": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+          "type": "string"
+        }
+      ],
+      "description": "Negative values are expenses; positive values are income.",
+      "title": "Amount"
+    },
+    "bank": {
+      "$ref": "#/$defs/BankName",
+      "description": "Bank identifier for the source statement."
+    },
+    "category": {
+      "default": "Прочее",
+      "description": "Normalized category assigned later.",
+      "title": "Category",
+      "type": "string"
+    },
+    "currency": {
+      "$ref": "#/$defs/CurrencyCode",
+      "default": "RUB",
+      "description": "Statement currency."
+    },
+    "date": {
+      "description": "Local Moscow time with timezone information.",
+      "format": "date-time",
+      "title": "Date",
+      "type": "string"
+    },
+    "description": {
+      "description": "Full source description for the transaction row.",
+      "title": "Description",
+      "type": "string"
+    },
+    "id": {
+      "description": "Deterministic transaction identifier.",
+      "title": "Id",
+      "type": "string"
+    },
+    "is_external_account": {
+      "default": false,
+      "description": "Whether the row belongs to an external-owned account kept for pairing.",
+      "title": "Is External Account",
+      "type": "boolean"
+    },
+    "is_transfer": {
+      "default": false,
+      "description": "Whether the row is a detected self-transfer.",
+      "title": "Is Transfer",
+      "type": "boolean"
+    },
+    "merchant_raw": {
+      "description": "Cleaned merchant or counterparty as found in the source.",
+      "title": "Merchant Raw",
+      "type": "string"
+    },
+    "precision": {
+      "$ref": "#/$defs/TransactionPrecision",
+      "default": "minute",
+      "description": "Precision of the parsed source timestamp: second, minute, or date-only."
+    },
+    "raw": {
+      "additionalProperties": true,
+      "description": "Original parsed row data preserved for debugging and reconciliation.",
+      "title": "Raw",
+      "type": "object"
+    },
+    "transfer_pair_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Identifier shared by both sides of a detected transfer pair.",
+      "title": "Transfer Pair Id"
+    }
+  },
+  "required": [
+    "id",
+    "date",
+    "amount",
+    "merchant_raw",
+    "description",
+    "bank",
+    "account"
+  ],
+  "title": "Transaction",
+  "type": "object"
+}

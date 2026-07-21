@@ -1,0 +1,220 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`RecentTransactions > renders the default collapsed recent-expense table 1`] = `
+<section
+  aria-label="Последние траты"
+  class="recent-transactions frame"
+>
+  <div
+    class="recent-transactions__header"
+  >
+    <div>
+      <p
+        class="recent-transactions__eyebrow"
+      >
+        Latest Expense Rows
+      </p>
+      <h2
+        class="recent-transactions__title panel-title glow"
+      >
+        ПОСЛЕДНИЕ ТРАТЫ
+      </h2>
+    </div>
+    <button
+      class="recent-transactions__toggle"
+      type="button"
+    >
+      ПОКАЗАТЬ ВСЕ ТРАТЫ
+    </button>
+  </div>
+  <div
+    class="recent-transactions__table-wrap"
+  >
+    <table
+      class="recent-table"
+    >
+      <thead>
+        <tr>
+          <th
+            scope="col"
+          >
+            ДАТА
+          </th>
+          <th
+            scope="col"
+          >
+            ОПИСАНИЕ
+          </th>
+          <th
+            scope="col"
+          >
+            КАТЕГОРИЯ
+          </th>
+          <th
+            scope="col"
+          >
+            СУММА
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            24.04.2026, 20:15
+          </td>
+          <td>
+            <div
+              class="recent-table__description"
+            >
+              <span
+                class="recent-table__merchant"
+              >
+                Кофейня
+              </span>
+              <span
+                class="recent-table__details"
+              >
+                Вечерний кофе
+              </span>
+            </div>
+          </td>
+          <td>
+            Кафе
+          </td>
+          <td
+            class="recent-table__amount"
+          >
+            -
+            199,99
+             ₽
+          </td>
+        </tr>
+        <tr>
+          <td>
+            24.04.2026, 09:30
+          </td>
+          <td>
+            <div
+              class="recent-table__description"
+            >
+              <span
+                class="recent-table__merchant"
+              >
+                Пятёрочка
+              </span>
+              <span
+                class="recent-table__details"
+              >
+                Продукты на неделю
+              </span>
+            </div>
+          </td>
+          <td>
+            Еда
+          </td>
+          <td
+            class="recent-table__amount"
+          >
+            -
+            1 240,00
+             ₽
+          </td>
+        </tr>
+        <tr>
+          <td>
+            23.04.2026, 18:10
+          </td>
+          <td>
+            <div
+              class="recent-table__description"
+            >
+              <span
+                class="recent-table__merchant"
+              >
+                Метро
+              </span>
+              <span
+                class="recent-table__details"
+              >
+                Пополнение транспортной карты
+              </span>
+            </div>
+          </td>
+          <td>
+            Транспорт
+          </td>
+          <td
+            class="recent-table__amount"
+          >
+            -
+            89,50
+             ₽
+          </td>
+        </tr>
+        <tr>
+          <td>
+            20.04.2026, 12:00
+          </td>
+          <td>
+            <div
+              class="recent-table__description"
+            >
+              <span
+                class="recent-table__merchant"
+              >
+                Сервисы Яндекса
+              </span>
+              <span
+                class="recent-table__details"
+              >
+                Подписка
+              </span>
+            </div>
+          </td>
+          <td>
+            Подписки
+          </td>
+          <td
+            class="recent-table__amount"
+          >
+            -
+            450,00
+             ₽
+          </td>
+        </tr>
+        <tr>
+          <td>
+            18.04.2026, 08:45
+          </td>
+          <td>
+            <div
+              class="recent-table__description"
+            >
+              <span
+                class="recent-table__merchant"
+              >
+                DNS
+              </span>
+              <span
+                class="recent-table__details"
+              >
+                Покупка техники
+              </span>
+            </div>
+          </td>
+          <td>
+            Покупки
+          </td>
+          <td
+            class="recent-table__amount"
+          >
+            -
+            3 000,00
+             ₽
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+`;

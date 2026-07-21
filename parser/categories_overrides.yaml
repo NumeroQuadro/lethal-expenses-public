@@ -1,0 +1,7 @@
+# Optional local categorization rules.
+#
+# Add entries here when a merchant needs to override the built-in rules:
+#
+# - pattern: '^EXAMPLE MERCHANT$'
+#   category: 'Покупки'
+[]

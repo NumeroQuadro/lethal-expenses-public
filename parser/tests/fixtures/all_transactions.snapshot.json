@@ -1,0 +1,853 @@
+[
+  {
+    "id": "yandex-eds-2026-04-25T15:00:00+03:00-51ec35bd4399",
+    "date": "2026-04-25T15:00:00+03:00",
+    "amount": "600.00",
+    "currency": "RUB",
+    "merchant_raw": "Альфа Банк на Яндекс Счёт",
+    "description": "Перевод с карты Альфа Банк на Яндекс Счёт",
+    "bank": "yandex",
+    "account": "ЭДС",
+    "precision": "minute",
+    "category": "Переводы",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "processing_date": "25.04.2026",
+      "card": null,
+      "amount_operation": "+ 600,00 \u0000",
+      "amount_esp": "+ 600,00 \u0000",
+      "source_name": "yandex_edge.pdf",
+      "sources": [
+        "yandex_edge.pdf"
+      ]
+    }
+  },
+  {
+    "id": "yandex-1111-2026-04-25T14:00:00+03:00-6bf35caebd29",
+    "date": "2026-04-25T14:00:00+03:00",
+    "amount": "-100.00",
+    "currency": "RUB",
+    "merchant_raw": "Тест Тестович",
+    "description": "Исходящий перевод СБП, Тест Тестович, +7 921 111-11-11, Сбербанк",
+    "bank": "yandex",
+    "account": "****1111",
+    "precision": "minute",
+    "category": "Переводы",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "processing_date": "25.04.2026",
+      "card": "*1111",
+      "amount_operation": "– 100,00 \u0000",
+      "amount_esp": "– 100,00 \u0000",
+      "source_name": "yandex_edge.pdf",
+      "sources": [
+        "yandex_edge.pdf"
+      ]
+    }
+  },
+  {
+    "id": "yandex-1111-2026-04-25T13:05:00+03:00-1b1a0fd4e736",
+    "date": "2026-04-25T13:05:00+03:00",
+    "amount": "-250.00",
+    "currency": "RUB",
+    "merchant_raw": "Маркет у дома",
+    "description": "Оплата СБП QR (Маркет у дома)",
+    "bank": "yandex",
+    "account": "****1111",
+    "precision": "minute",
+    "category": "Прочее",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "processing_date": "25.04.2026",
+      "card": "*1111",
+      "amount_operation": "– 250,00 \u0000",
+      "amount_esp": "– 250,00 \u0000",
+      "source_name": "yandex_edge.pdf",
+      "sources": [
+        "yandex_edge.pdf"
+      ]
+    }
+  },
+  {
+    "id": "yandex-1111-2026-04-25T12:00:00+03:00-8ba220fda881",
+    "date": "2026-04-25T12:00:00+03:00",
+    "amount": "-5432.10",
+    "currency": "RUB",
+    "merchant_raw": "DNS",
+    "description": "Оплата товаров и услуг DNS",
+    "bank": "yandex",
+    "account": "****1111",
+    "precision": "minute",
+    "category": "Электроника",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "processing_date": "25.04.2026",
+      "card": "*1111",
+      "amount_operation": "– 5 432,10 \u0000",
+      "amount_esp": "– 5 432,10 \u0000",
+      "source_name": "yandex_edge.pdf",
+      "sources": [
+        "yandex_edge.pdf"
+      ]
+    }
+  },
+  {
+    "id": "ozon-9911-20260425-00:00-a1d0445ffb48",
+    "date": "2026-04-25T00:00:00+03:00",
+    "amount": "-321.00",
+    "currency": "RUB",
+    "merchant_raw": "Оплата сервиса Ozon for Business",
+    "description": "Оплата сервиса Ozon for Business",
+    "bank": "ozon",
+    "account": "****9911",
+    "precision": "date",
+    "category": "Прочее",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "document": "DOC-101",
+      "currency": "RUB",
+      "is_likely_self_transfer": false,
+      "source_name": "ozon_edge.pdf",
+      "sources": [
+        "ozon_edge.pdf"
+      ]
+    }
+  },
+  {
+    "id": "ozon-9911-20260425-00:00-69d4fdbb0818",
+    "date": "2026-04-25T00:00:00+03:00",
+    "amount": "-1000.00",
+    "currency": "RUB",
+    "merchant_raw": "Перевод собственных средств. Без НДС.",
+    "description": "Перевод собственных средств. Без НДС.",
+    "bank": "ozon",
+    "account": "****9911",
+    "precision": "date",
+    "category": "Переводы",
+    "is_transfer": true,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "document": "DOC-100",
+      "currency": "RUB",
+      "is_likely_self_transfer": true,
+      "source_name": "ozon_edge.pdf",
+      "sources": [
+        "ozon_edge.pdf"
+      ]
+    }
+  },
+  {
+    "id": "ozon-9911-20260425-00:00-57d0f9df9c45",
+    "date": "2026-04-25T00:00:00+03:00",
+    "amount": "2000.00",
+    "currency": "RUB",
+    "merchant_raw": "Пополнение кошелька",
+    "description": "Пополнение кошелька",
+    "bank": "ozon",
+    "account": "****9911",
+    "precision": "date",
+    "category": "Прочее",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "document": "DOC-102",
+      "currency": "RUB",
+      "is_likely_self_transfer": false,
+      "source_name": "ozon_edge.pdf",
+      "sources": [
+        "ozon_edge.pdf"
+      ]
+    }
+  },
+  {
+    "id": "yandex-eds-2026-04-24T14:15:00+03:00-64fff891be0d",
+    "date": "2026-04-24T14:15:00+03:00",
+    "amount": "-540.40",
+    "currency": "RUB",
+    "merchant_raw": "Кофейня у дома",
+    "description": "Оплата товаров и услуг Кофейня у дома Большой проспект П.С., 10",
+    "bank": "yandex",
+    "account": "ЭДС",
+    "precision": "minute",
+    "category": "Кафе",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "processing_date": "24.04.2026",
+      "card": null,
+      "amount_operation": "– 540,40 \u0000",
+      "amount_esp": "– 540,40 \u0000",
+      "source_name": "yandex_minimal.pdf",
+      "sources": [
+        "yandex_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "yandex-eds-2026-04-24T13:05:00+03:00-f2526994d38e",
+    "date": "2026-04-24T13:05:00+03:00",
+    "amount": "-3000.00",
+    "currency": "RUB",
+    "merchant_raw": "Иван Иванович И.",
+    "description": "Исходящий перевод СБП, Иван Иванович И., +7 921 000-00-00, Сбербанк",
+    "bank": "yandex",
+    "account": "ЭДС",
+    "precision": "minute",
+    "category": "Переводы",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "processing_date": "24.04.2026",
+      "card": null,
+      "amount_operation": "– 3 000,00 \u0000",
+      "amount_esp": "– 3 000,00 \u0000",
+      "source_name": "yandex_minimal.pdf",
+      "sources": [
+        "yandex_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "yandex-eds-2026-04-24T12:50:00+03:00-c3f599a188f0",
+    "date": "2026-04-24T12:50:00+03:00",
+    "amount": "5000.00",
+    "currency": "RUB",
+    "merchant_raw": "Tinkoff Black",
+    "description": "Перевод с карты Tinkoff Black на Яндекс Счёт",
+    "bank": "yandex",
+    "account": "ЭДС",
+    "precision": "minute",
+    "category": "Переводы",
+    "is_transfer": true,
+    "is_external_account": false,
+    "transfer_pair_id": "275f4a8fa081c45a",
+    "raw": {
+      "processing_date": "24.04.2026",
+      "card": null,
+      "amount_operation": "+ 5 000,00 \u0000",
+      "amount_esp": "+ 5 000,00 \u0000",
+      "source_name": "yandex_minimal.pdf",
+      "sources": [
+        "yandex_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "yandex-9922-2026-04-24T11:40:00+03:00-aa021d9716f5",
+    "date": "2026-04-24T11:40:00+03:00",
+    "amount": "7000.00",
+    "currency": "RUB",
+    "merchant_raw": "Иван Иванович И.",
+    "description": "Входящий перевод СБП, Иван Иванович И., +7 921 000-00-00, Сбербанк",
+    "bank": "yandex",
+    "account": "****9922",
+    "precision": "minute",
+    "category": "Переводы",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "processing_date": "24.04.2026",
+      "card": "*9922",
+      "amount_operation": "+ 7 000,00 \u0000",
+      "amount_esp": "+ 7 000,00 \u0000",
+      "source_name": "yandex_minimal.pdf",
+      "sources": [
+        "yandex_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "yandex-9922-2026-04-24T10:30:00+03:00-67582b2517d7",
+    "date": "2026-04-24T10:30:00+03:00",
+    "amount": "-399.00",
+    "currency": "RUB",
+    "merchant_raw": "Сервисы Яндекса",
+    "description": "Оплата СБП QR (Сервисы Яндекса) Плюс Мульти с семейной подпиской",
+    "bank": "yandex",
+    "account": "****9922",
+    "precision": "minute",
+    "category": "Прочее",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "processing_date": "24.04.2026",
+      "card": "*9922",
+      "amount_operation": "– 399,00 \u0000",
+      "amount_esp": "– 399,00 \u0000",
+      "source_name": "yandex_minimal.pdf",
+      "sources": [
+        "yandex_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "yandex-9922-2026-04-24T09:20:00+03:00-d7dfb65be1a2",
+    "date": "2026-04-24T09:20:00+03:00",
+    "amount": "250.00",
+    "currency": "RUB",
+    "merchant_raw": "Пятёрочка",
+    "description": "Возврат покупки Пятёрочка",
+    "bank": "yandex",
+    "account": "****9922",
+    "precision": "minute",
+    "category": "Еда",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "processing_date": "24.04.2026",
+      "card": "*9922",
+      "amount_operation": "+ 250,00 \u0000",
+      "amount_esp": "+ 250,00 \u0000",
+      "source_name": "yandex_minimal.pdf",
+      "sources": [
+        "yandex_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "yandex-9922-2026-04-24T08:10:00+03:00-d6bf5838f39c",
+    "date": "2026-04-24T08:10:00+03:00",
+    "amount": "-1234.56",
+    "currency": "RUB",
+    "merchant_raw": "Магнит у дома",
+    "description": "Оплата товаров и услуг Магнит у дома",
+    "bank": "yandex",
+    "account": "****9922",
+    "precision": "minute",
+    "category": "Прочее",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "processing_date": "24.04.2026",
+      "card": "*9922",
+      "amount_operation": "– 1 234,56 \u0000",
+      "amount_esp": "– 1 234,56 \u0000",
+      "source_name": "yandex_minimal.pdf",
+      "sources": [
+        "yandex_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "ozon-3456-20260424-00:00-e4c0edddff47",
+    "date": "2026-04-24T00:00:00+03:00",
+    "amount": "-12345.67",
+    "currency": "RUB",
+    "merchant_raw": "Покупка в Ozon Travel",
+    "description": "Покупка в Ozon Travel",
+    "bank": "ozon",
+    "account": "****3456",
+    "precision": "date",
+    "category": "Прочее",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "document": "DOC-004",
+      "currency": "RUB",
+      "is_likely_self_transfer": false,
+      "source_name": "ozon_minimal.pdf",
+      "sources": [
+        "ozon_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "ozon-3456-20260424-00:00-d80b6185c46d",
+    "date": "2026-04-24T00:00:00+03:00",
+    "amount": "-5000.00",
+    "currency": "RUB",
+    "merchant_raw": "Перевод собственных средств. Без НДС.",
+    "description": "Перевод собственных средств. Без НДС.",
+    "bank": "ozon",
+    "account": "****3456",
+    "precision": "date",
+    "category": "Переводы",
+    "is_transfer": true,
+    "is_external_account": false,
+    "transfer_pair_id": "275f4a8fa081c45a",
+    "raw": {
+      "document": "DOC-001",
+      "currency": "RUB",
+      "is_likely_self_transfer": true,
+      "source_name": "ozon_minimal.pdf",
+      "sources": [
+        "ozon_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "ozon-3456-20260424-00:00-d2e5b5793805",
+    "date": "2026-04-24T00:00:00+03:00",
+    "amount": "-199.00",
+    "currency": "RUB",
+    "merchant_raw": "Оплата подписки Ozon Premium",
+    "description": "Оплата подписки Ozon Premium",
+    "bank": "ozon",
+    "account": "****3456",
+    "precision": "date",
+    "category": "Прочее",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "document": "DOC-003",
+      "currency": "RUB",
+      "is_likely_self_transfer": false,
+      "source_name": "ozon_minimal.pdf",
+      "sources": [
+        "ozon_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "ozon-3456-20260424-00:00-a32a84016e95",
+    "date": "2026-04-24T00:00:00+03:00",
+    "amount": "25.17",
+    "currency": "RUB",
+    "merchant_raw": "Выплата процентов по счету 40817810000000123456.",
+    "description": "Выплата процентов по счету 40817810000000123456.",
+    "bank": "ozon",
+    "account": "****3456",
+    "precision": "date",
+    "category": "Прочее",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "document": "DOC-002",
+      "currency": "RUB",
+      "is_likely_self_transfer": false,
+      "source_name": "ozon_minimal.pdf",
+      "sources": [
+        "ozon_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "spb-5151-20260315-00:00-bee6d5efaa2a",
+    "date": "2026-03-15T00:00:00+03:00",
+    "amount": "10000.00",
+    "currency": "RUB",
+    "merchant_raw": "Пополнение вклада",
+    "description": "Пополнение вклада",
+    "bank": "spb",
+    "account": "****5151",
+    "precision": "date",
+    "category": "Прочее",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "counterparty": "ПАО «БАНК САНКТ-ПЕТЕРБУРГ»",
+      "amount_text": "10 000.00",
+      "source_name": "spb_edge.pdf",
+      "sources": [
+        "spb_edge.pdf"
+      ]
+    }
+  },
+  {
+    "id": "spb-5151-20260314-00:00-7a9983f98d05",
+    "date": "2026-03-14T00:00:00+03:00",
+    "amount": "-650.50",
+    "currency": "RUB",
+    "merchant_raw": "ООО Ромашка",
+    "description": "Оплата услуг комментарий по договору 42",
+    "bank": "spb",
+    "account": "****5151",
+    "precision": "date",
+    "category": "Прочее",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "counterparty": "ООО Ромашка",
+      "amount_text": "-650.50",
+      "source_name": "spb_edge.pdf",
+      "sources": [
+        "spb_edge.pdf"
+      ]
+    }
+  },
+  {
+    "id": "spb-5151-20260313-00:00-fd2c041a6acc",
+    "date": "2026-03-13T00:00:00+03:00",
+    "amount": "-1500.00",
+    "currency": "RUB",
+    "merchant_raw": "Иван Иванович И",
+    "description": "Исходящий перевод СБП Иван Иванович И.",
+    "bank": "spb",
+    "account": "****5151",
+    "precision": "date",
+    "category": "Переводы",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "counterparty": "ПАО «БАНК САНКТ-ПЕТЕРБУРГ»",
+      "amount_text": "-1 500.00",
+      "source_name": "spb_edge.pdf",
+      "sources": [
+        "spb_edge.pdf"
+      ]
+    }
+  },
+  {
+    "id": "spb-4242-20260312-00:00-888d9e39e6bb",
+    "date": "2026-03-12T00:00:00+03:00",
+    "amount": "8000.00",
+    "currency": "RUB",
+    "merchant_raw": "Анна Сергеевна П",
+    "description": "Входящий перевод СБП Анна Сергеевна П.",
+    "bank": "spb",
+    "account": "****4242",
+    "precision": "date",
+    "category": "Переводы",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "counterparty": "ПАО «БАНК САНКТ-ПЕТЕРБУРГ»",
+      "amount_text": "8 000.00",
+      "source_name": "spb_minimal.pdf",
+      "sources": [
+        "spb_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "spb-4242-20260311-00:00-a45c1734407a",
+    "date": "2026-03-11T00:00:00+03:00",
+    "amount": "-4321.09",
+    "currency": "RUB",
+    "merchant_raw": "ООО Лента",
+    "description": "Покупка в супермаркете",
+    "bank": "spb",
+    "account": "****4242",
+    "precision": "date",
+    "category": "Прочее",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "counterparty": "ООО Лента",
+      "amount_text": "-4 321.09",
+      "source_name": "spb_minimal.pdf",
+      "sources": [
+        "spb_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "spb-4242-20260310-00:00-830732befeaa",
+    "date": "2026-03-10T00:00:00+03:00",
+    "amount": "-3500.00",
+    "currency": "RUB",
+    "merchant_raw": "Внутрибанковский перевод между своими счетами",
+    "description": "Внутрибанковский перевод между своими счетами",
+    "bank": "spb",
+    "account": "****4242",
+    "precision": "date",
+    "category": "Прочее",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "counterparty": "ПАО «БАНК САНКТ-ПЕТЕРБУРГ»",
+      "amount_text": "-3 500.00",
+      "source_name": "spb_minimal.pdf",
+      "sources": [
+        "spb_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "spb-4242-20260309-00:00-ffc506c31974",
+    "date": "2026-03-09T00:00:00+03:00",
+    "amount": "55000.00",
+    "currency": "RUB",
+    "merchant_raw": "ИТМО",
+    "description": "Зачисление зарплаты от УНИВЕРСИТЕТ ИТМО",
+    "bank": "spb",
+    "account": "****4242",
+    "precision": "date",
+    "category": "Прочее",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "counterparty": "ПАО «БАНК САНКТ-ПЕТЕРБУРГ»",
+      "amount_text": "55 000.00",
+      "source_name": "spb_minimal.pdf",
+      "sources": [
+        "spb_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "spb-4242-20260309-00:00-a31b68ca3f57",
+    "date": "2026-03-09T00:00:00+03:00",
+    "amount": "-12000.00",
+    "currency": "RUB",
+    "merchant_raw": "Иван Иванович И",
+    "description": "Исходящий перевод СБП Иван Иванович И.",
+    "bank": "spb",
+    "account": "****4242",
+    "precision": "date",
+    "category": "Переводы",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "counterparty": "ПАО «БАНК САНКТ-ПЕТЕРБУРГ»",
+      "amount_text": "-12 000.00",
+      "source_name": "spb_minimal.pdf",
+      "sources": [
+        "spb_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "sber-1111-20260303-11:45-AUTH11-neg10000",
+    "date": "2026-03-03T11:45:00+03:00",
+    "amount": "-100.00",
+    "currency": "RUB",
+    "merchant_raw": "Тестовый сервис",
+    "description": "SBSCR_Тестовый сервис ****1111",
+    "bank": "sberbank",
+    "account": "****1111",
+    "precision": "minute",
+    "category": "Подписки",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "auth_code": "AUTH11",
+      "category_label": "Разное",
+      "header_account": "****1111",
+      "card_suffix": "1111",
+      "card_suffixes": [
+        "1111"
+      ],
+      "source_name": "sberbank_edge.pdf",
+      "sources": [
+        "sberbank_edge.pdf"
+      ]
+    }
+  },
+  {
+    "id": "sber-1111-20260303-08:30-AUTH10-neg60000",
+    "date": "2026-03-03T08:30:00+03:00",
+    "amount": "-600.00",
+    "currency": "RUB",
+    "merchant_raw": "Магнит у дома",
+    "description": "Магнит у дома ****1111",
+    "bank": "sberbank",
+    "account": "****1111",
+    "precision": "minute",
+    "category": "Еда",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "auth_code": "AUTH10",
+      "category_label": "Супермаркеты",
+      "header_account": "****1111",
+      "card_suffix": "1111",
+      "card_suffixes": [
+        "1111"
+      ],
+      "source_name": "sberbank_edge.pdf",
+      "sources": [
+        "sberbank_edge.pdf"
+      ]
+    }
+  },
+  {
+    "id": "sber-1111-20260303-07:00-AUTH09-neg125000",
+    "date": "2026-03-03T07:00:00+03:00",
+    "amount": "-1250.00",
+    "currency": "RUB",
+    "merchant_raw": "ООО Проба",
+    "description": "Перевод для ООО Проба ****1111",
+    "bank": "sberbank",
+    "account": "****1111",
+    "precision": "minute",
+    "category": "Переводы",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "auth_code": "AUTH09",
+      "category_label": "Перевод с карты",
+      "header_account": "****1111",
+      "card_suffix": "1111",
+      "card_suffixes": [
+        "1111"
+      ],
+      "source_name": "sberbank_edge.pdf",
+      "sources": [
+        "sberbank_edge.pdf"
+      ]
+    }
+  },
+  {
+    "id": "sber-7000-20260301-18:05-AUTH05-neg42000",
+    "date": "2026-03-01T18:05:00+03:00",
+    "amount": "-420.00",
+    "currency": "RUB",
+    "merchant_raw": "Аптека Озерки",
+    "description": "SBSCR_Аптека Озерки ****7000",
+    "bank": "sberbank",
+    "account": "****7000",
+    "precision": "minute",
+    "category": "Подписки",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "auth_code": "AUTH05",
+      "category_label": "Аптеки",
+      "header_account": "****7000",
+      "card_suffix": "7000",
+      "card_suffixes": [
+        "7000"
+      ],
+      "source_name": "sberbank_minimal.pdf",
+      "sources": [
+        "sberbank_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "sber-7000-20260301-13:15-AUTH04-neg300000",
+    "date": "2026-03-01T13:15:00+03:00",
+    "amount": "-3000.00",
+    "currency": "RUB",
+    "merchant_raw": "И. Иван Иванович",
+    "description": "Перевод от И. Иван Иванович ****7000",
+    "bank": "sberbank",
+    "account": "****7000",
+    "precision": "minute",
+    "category": "Переводы",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "auth_code": "AUTH04",
+      "category_label": "Перевод СБП",
+      "header_account": "****7000",
+      "card_suffix": "7000",
+      "card_suffixes": [
+        "7000"
+      ],
+      "source_name": "sberbank_minimal.pdf",
+      "sources": [
+        "sberbank_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "sber-7000-20260301-12:00-AUTH03-pos1000000",
+    "date": "2026-03-01T12:00:00+03:00",
+    "amount": "10000.00",
+    "currency": "RUB",
+    "merchant_raw": "ООО Ромашка",
+    "description": "Перевод от ООО Ромашка ****7000",
+    "bank": "sberbank",
+    "account": "****7000",
+    "precision": "minute",
+    "category": "Переводы",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "auth_code": "AUTH03",
+      "category_label": "Перевод СБП",
+      "header_account": "****7000",
+      "card_suffix": "7000",
+      "card_suffixes": [
+        "7000"
+      ],
+      "source_name": "sberbank_minimal.pdf",
+      "sources": [
+        "sberbank_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "sber-7000-20260301-10:30-AUTH02-neg234567",
+    "date": "2026-03-01T10:30:00+03:00",
+    "amount": "-2345.67",
+    "currency": "RUB",
+    "merchant_raw": "Перекрёсток Санкт-Петербург",
+    "description": "Перекрёсток Санкт-Петербург ****7000",
+    "bank": "sberbank",
+    "account": "****7000",
+    "precision": "minute",
+    "category": "Еда",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "auth_code": "AUTH02",
+      "category_label": "Супермаркеты",
+      "header_account": "****7000",
+      "card_suffix": "7000",
+      "card_suffixes": [
+        "7000"
+      ],
+      "source_name": "sberbank_minimal.pdf",
+      "sources": [
+        "sberbank_minimal.pdf"
+      ]
+    }
+  },
+  {
+    "id": "sber-7000-20260301-08:15-AUTH01-neg15400",
+    "date": "2026-03-01T08:15:00+03:00",
+    "amount": "-154.00",
+    "currency": "RUB",
+    "merchant_raw": "Яндекс Такси",
+    "description": "SBSCR_Яндекс Такси Операция по карте ****7000",
+    "bank": "sberbank",
+    "account": "****7000",
+    "precision": "minute",
+    "category": "Подписки",
+    "is_transfer": false,
+    "is_external_account": false,
+    "transfer_pair_id": null,
+    "raw": {
+      "auth_code": "AUTH01",
+      "category_label": "Транспорт",
+      "header_account": "****7000",
+      "card_suffix": "7000",
+      "card_suffixes": [
+        "7000"
+      ],
+      "source_name": "sberbank_minimal.pdf",
+      "sources": [
+        "sberbank_minimal.pdf"
+      ]
+    }
+  }
+]

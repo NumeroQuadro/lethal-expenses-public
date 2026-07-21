@@ -1,0 +1,945 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CategoriesPage > renders cleaned transfer merchants when transfers are visible 1`] = `
+<section
+  aria-label="Категории"
+  class="categories-page"
+>
+  <header
+    class="categories-page__header"
+  >
+    <div>
+      <p
+        class="categories-page__eyebrow"
+      >
+        Lethal Expenses
+      </p>
+      <h1
+        class="categories-page__title panel-title glow"
+      >
+        КАТЕГОРИИ
+      </h1>
+    </div>
+    <p
+      class="categories-page__copy"
+    >
+      Category-specific breakdown for the active period. Period chips update live; dashboard category chips are ignored here so the ranking stays complete.
+    </p>
+  </header>
+  <section
+    aria-label="Выбор периода"
+    class="categories-page__period frame"
+  >
+    <p
+      class="filters__label"
+    >
+      ПЕРИОД
+    </p>
+    <div
+      aria-label="Период"
+      class="filters__chips"
+      role="group"
+    >
+      <button
+        aria-pressed="false"
+        class="filter-chip"
+        type="button"
+      >
+        СЕГОДНЯ
+      </button>
+      <button
+        aria-pressed="false"
+        class="filter-chip"
+        type="button"
+      >
+        7Д
+      </button>
+      <button
+        aria-pressed="false"
+        class="filter-chip"
+        type="button"
+      >
+        30Д
+      </button>
+      <button
+        aria-pressed="true"
+        class="filter-chip is-active"
+        type="button"
+      >
+        МЕСЯЦ
+      </button>
+      <button
+        aria-pressed="false"
+        class="filter-chip"
+        type="button"
+      >
+        ВСЁ ВРЕМЯ
+      </button>
+    </div>
+  </section>
+  <div
+    class="categories-page__hero"
+  >
+    <article
+      class="overview-card frame"
+    >
+      <p
+        class="overview-card__label panel-title"
+      >
+        ТОП КАТЕГОРИЯ
+      </p>
+      <p
+        class="categories-page__hero-value glow"
+      >
+        Еда
+      </p>
+      <p
+        class="overview-card__meta"
+      >
+        300,00
+         ₽ ·
+         
+        100
+        % от трат
+      </p>
+    </article>
+    <article
+      class="overview-card frame"
+    >
+      <p
+        class="overview-card__label panel-title"
+      >
+        ВЫРОСЛО vs ПРОШЛЫЙ МЕС
+      </p>
+      <p
+        class="categories-page__hero-value glow"
+      >
+        Еда
+      </p>
+      <p
+        class="overview-card__meta"
+      >
+        +300,00 ₽
+      </p>
+    </article>
+    <button
+      class="overview-card frame categories-page__hero-card"
+      type="button"
+    >
+      <p
+        class="overview-card__label panel-title"
+      >
+        ПРОЧЕЕ
+      </p>
+      <p
+        class="overview-card__value glow"
+      >
+        0
+      </p>
+      <p
+        class="overview-card__meta"
+      >
+        0,00
+         ₽ ·
+         
+        0
+        % от трат
+      </p>
+    </button>
+  </div>
+  <section
+    aria-label="Список категорий"
+    class="categories-page__list frame"
+  >
+    <div
+      class="categories-page__list-header"
+    >
+      <div>
+        <p
+          class="categories-page__section-eyebrow"
+        >
+          Current Period
+        </p>
+        <h2
+          class="categories-page__section-title panel-title glow"
+        >
+          СПИСОК КАТЕГОРИЙ
+        </h2>
+      </div>
+    </div>
+    <div
+      class="categories-page__rows"
+    >
+      <div
+        class="categories-page__entry"
+      >
+        <button
+          aria-expanded="true"
+          class="categories-page__row is-expanded"
+          id="category-row-переводы"
+          type="button"
+        >
+          <span
+            class="categories-page__row-name"
+          >
+            Переводы
+          </span>
+          <span
+            aria-hidden="true"
+            class="categories-page__row-bar"
+          >
+            <span
+              class="categories-page__row-fill"
+              style="width: 100%;"
+            />
+          </span>
+          <span
+            class="categories-page__row-count"
+          >
+            5
+             
+            трат
+          </span>
+          <span
+            class="categories-page__row-value"
+          >
+            40 341,00
+             ₽ (
+            99,3
+            %)
+          </span>
+        </button>
+        <div
+          aria-label="Детали категории Переводы"
+          class="categories-page__detail"
+        >
+          <div
+            class="categories-page__detail-grid"
+          >
+            <section
+              class="categories-page__column"
+            >
+              <p
+                class="categories-page__column-title"
+              >
+                ТОП МЕРЧАНТЫ
+              </p>
+              <ol
+                class="top-merchants__list categories-page__merchant-list"
+              >
+                <li
+                  class="top-merchants__row"
+                >
+                  <span
+                    class="top-merchants__rank"
+                  >
+                    1
+                    .
+                  </span>
+                  <span
+                    class="top-merchants__merchant"
+                  >
+                    ООО ТЕХНОПАРК ЦЕНТР
+                  </span>
+                  <span
+                    class="top-merchants__count"
+                  >
+                    1
+                     
+                    трата
+                  </span>
+                  <span
+                    class="top-merchants__total"
+                  >
+                    35 343,00
+                     ₽
+                  </span>
+                </li>
+                <li
+                  class="top-merchants__row"
+                >
+                  <span
+                    class="top-merchants__rank"
+                  >
+                    2
+                    .
+                  </span>
+                  <span
+                    class="top-merchants__merchant"
+                  >
+                    PLAYMAG
+                  </span>
+                  <span
+                    class="top-merchants__count"
+                  >
+                    3
+                     
+                    траты
+                  </span>
+                  <span
+                    class="top-merchants__total"
+                  >
+                    2 999,00
+                     ₽
+                  </span>
+                </li>
+                <li
+                  class="top-merchants__row"
+                >
+                  <span
+                    class="top-merchants__rank"
+                  >
+                    3
+                    .
+                  </span>
+                  <span
+                    class="top-merchants__merchant"
+                  >
+                    NOMOREFARM.RU
+                  </span>
+                  <span
+                    class="top-merchants__count"
+                  >
+                    1
+                     
+                    трата
+                  </span>
+                  <span
+                    class="top-merchants__total"
+                  >
+                    1 999,00
+                     ₽
+                  </span>
+                </li>
+              </ol>
+            </section>
+            <section
+              class="categories-page__column"
+            >
+              <p
+                class="categories-page__column-title"
+              >
+                ПОСЛЕДНИЕ ОПЕРАЦИИ
+              </p>
+              <ol
+                class="categories-page__recent-list"
+              >
+                <li
+                  class="categories-page__recent-row"
+                >
+                  <span
+                    class="categories-page__recent-date"
+                  >
+                    26.04.2026, 12:00
+                  </span>
+                  <span
+                    class="categories-page__recent-merchant"
+                  >
+                    SBOL.
+                  </span>
+                  <span
+                    class="categories-page__recent-amount"
+                  >
+                    -
+                    1 500,00
+                     
+                    ₽
+                  </span>
+                </li>
+                <li
+                  class="categories-page__recent-row"
+                >
+                  <span
+                    class="categories-page__recent-date"
+                  >
+                    25.04.2026, 12:00
+                  </span>
+                  <span
+                    class="categories-page__recent-merchant"
+                  >
+                    BD100042LUK6C6G18OD9K5OKL252VNPG
+                  </span>
+                  <span
+                    class="categories-page__recent-amount"
+                  >
+                    -
+                    500,00
+                     
+                    ₽
+                  </span>
+                </li>
+                <li
+                  class="categories-page__recent-row"
+                >
+                  <span
+                    class="categories-page__recent-date"
+                  >
+                    24.04.2026, 12:00
+                  </span>
+                  <span
+                    class="categories-page__recent-merchant"
+                  >
+                    BD100043LUK6C6G18OD9K5OKL252VNPH
+                  </span>
+                  <span
+                    class="categories-page__recent-amount"
+                  >
+                    -
+                    35 343,00
+                     
+                    ₽
+                  </span>
+                </li>
+                <li
+                  class="categories-page__recent-row"
+                >
+                  <span
+                    class="categories-page__recent-date"
+                  >
+                    23.04.2026, 12:00
+                  </span>
+                  <span
+                    class="categories-page__recent-merchant"
+                  >
+                    NOMOREFARM.RU
+                  </span>
+                  <span
+                    class="categories-page__recent-amount"
+                  >
+                    -
+                    1 999,00
+                     
+                    ₽
+                  </span>
+                </li>
+                <li
+                  class="categories-page__recent-row"
+                >
+                  <span
+                    class="categories-page__recent-date"
+                  >
+                    22.04.2026, 12:00
+                  </span>
+                  <span
+                    class="categories-page__recent-merchant"
+                  >
+                    Без названия
+                  </span>
+                  <span
+                    class="categories-page__recent-amount"
+                  >
+                    -
+                    999,00
+                     
+                    ₽
+                  </span>
+                </li>
+              </ol>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div
+        class="categories-page__entry"
+      >
+        <button
+          aria-expanded="false"
+          class="categories-page__row"
+          id="category-row-еда"
+          type="button"
+        >
+          <span
+            class="categories-page__row-name"
+          >
+            Еда
+          </span>
+          <span
+            aria-hidden="true"
+            class="categories-page__row-bar"
+          >
+            <span
+              class="categories-page__row-fill"
+              style="width: 0.7436602959767978%;"
+            />
+          </span>
+          <span
+            class="categories-page__row-count"
+          >
+            1
+             
+            трата
+          </span>
+          <span
+            class="categories-page__row-value"
+          >
+            300,00
+             ₽ (
+            0,7
+            %)
+          </span>
+        </button>
+      </div>
+    </div>
+  </section>
+</section>
+`;
+
+exports[`CategoriesPage > renders the month view snapshot 1`] = `
+<section
+  aria-label="Категории"
+  class="categories-page"
+>
+  <header
+    class="categories-page__header"
+  >
+    <div>
+      <p
+        class="categories-page__eyebrow"
+      >
+        Lethal Expenses
+      </p>
+      <h1
+        class="categories-page__title panel-title glow"
+      >
+        КАТЕГОРИИ
+      </h1>
+    </div>
+    <p
+      class="categories-page__copy"
+    >
+      Category-specific breakdown for the active period. Period chips update live; dashboard category chips are ignored here so the ranking stays complete.
+    </p>
+  </header>
+  <section
+    aria-label="Выбор периода"
+    class="categories-page__period frame"
+  >
+    <p
+      class="filters__label"
+    >
+      ПЕРИОД
+    </p>
+    <div
+      aria-label="Период"
+      class="filters__chips"
+      role="group"
+    >
+      <button
+        aria-pressed="false"
+        class="filter-chip"
+        type="button"
+      >
+        СЕГОДНЯ
+      </button>
+      <button
+        aria-pressed="false"
+        class="filter-chip"
+        type="button"
+      >
+        7Д
+      </button>
+      <button
+        aria-pressed="false"
+        class="filter-chip"
+        type="button"
+      >
+        30Д
+      </button>
+      <button
+        aria-pressed="true"
+        class="filter-chip is-active"
+        type="button"
+      >
+        МЕСЯЦ
+      </button>
+      <button
+        aria-pressed="false"
+        class="filter-chip"
+        type="button"
+      >
+        ВСЁ ВРЕМЯ
+      </button>
+    </div>
+  </section>
+  <div
+    class="categories-page__hero"
+  >
+    <article
+      class="overview-card frame"
+    >
+      <p
+        class="overview-card__label panel-title"
+      >
+        ТОП КАТЕГОРИЯ
+      </p>
+      <p
+        class="categories-page__hero-value glow"
+      >
+        Электроника
+      </p>
+      <p
+        class="overview-card__meta"
+      >
+        2 500,00
+         ₽ ·
+         
+        42
+        % от трат
+      </p>
+    </article>
+    <article
+      class="overview-card frame"
+    >
+      <p
+        class="overview-card__label panel-title"
+      >
+        ВЫРОСЛО vs ПРОШЛЫЙ МЕС
+      </p>
+      <p
+        class="categories-page__hero-value glow"
+      >
+        Электроника
+      </p>
+      <p
+        class="overview-card__meta"
+      >
+        +1 500,00 ₽
+      </p>
+    </article>
+    <button
+      class="overview-card frame categories-page__hero-card"
+      type="button"
+    >
+      <p
+        class="overview-card__label panel-title"
+      >
+        ПРОЧЕЕ
+      </p>
+      <p
+        class="overview-card__value glow"
+      >
+        2
+      </p>
+      <p
+        class="overview-card__meta"
+      >
+        1 000,00
+         ₽ ·
+         
+        16,8
+        % от трат
+      </p>
+    </button>
+  </div>
+  <section
+    aria-label="Список категорий"
+    class="categories-page__list frame"
+  >
+    <div
+      class="categories-page__list-header"
+    >
+      <div>
+        <p
+          class="categories-page__section-eyebrow"
+        >
+          Current Period
+        </p>
+        <h2
+          class="categories-page__section-title panel-title glow"
+        >
+          СПИСОК КАТЕГОРИЙ
+        </h2>
+      </div>
+    </div>
+    <div
+      class="categories-page__rows"
+    >
+      <div
+        class="categories-page__entry"
+      >
+        <button
+          aria-expanded="true"
+          class="categories-page__row is-expanded"
+          id="category-row-электроника"
+          type="button"
+        >
+          <span
+            class="categories-page__row-name"
+          >
+            Электроника
+          </span>
+          <span
+            aria-hidden="true"
+            class="categories-page__row-bar"
+          >
+            <span
+              class="categories-page__row-fill"
+              style="width: 100%;"
+            />
+          </span>
+          <span
+            class="categories-page__row-count"
+          >
+            1
+             
+            трата
+          </span>
+          <span
+            class="categories-page__row-value"
+          >
+            2 500,00
+             ₽ (
+            42
+            %)
+          </span>
+        </button>
+        <div
+          aria-label="Детали категории Электроника"
+          class="categories-page__detail"
+        >
+          <div
+            class="categories-page__detail-grid"
+          >
+            <section
+              class="categories-page__column"
+            >
+              <p
+                class="categories-page__column-title"
+              >
+                ТОП МЕРЧАНТЫ
+              </p>
+              <ol
+                class="top-merchants__list categories-page__merchant-list"
+              >
+                <li
+                  class="top-merchants__row"
+                >
+                  <span
+                    class="top-merchants__rank"
+                  >
+                    1
+                    .
+                  </span>
+                  <span
+                    class="top-merchants__merchant"
+                  >
+                    DNS
+                  </span>
+                  <span
+                    class="top-merchants__count"
+                  >
+                    1
+                     
+                    трата
+                  </span>
+                  <span
+                    class="top-merchants__total"
+                  >
+                    2 500,00
+                     ₽
+                  </span>
+                </li>
+              </ol>
+            </section>
+            <section
+              class="categories-page__column"
+            >
+              <p
+                class="categories-page__column-title"
+              >
+                ПОСЛЕДНИЕ ОПЕРАЦИИ
+              </p>
+              <ol
+                class="categories-page__recent-list"
+              >
+                <li
+                  class="categories-page__recent-row"
+                >
+                  <span
+                    class="categories-page__recent-date"
+                  >
+                    10.04.2026, 10:00
+                  </span>
+                  <span
+                    class="categories-page__recent-merchant"
+                  >
+                    DNS
+                  </span>
+                  <span
+                    class="categories-page__recent-amount"
+                  >
+                    -
+                    2 500,00
+                     
+                    ₽
+                  </span>
+                </li>
+              </ol>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div
+        class="categories-page__entry"
+      >
+        <button
+          aria-expanded="false"
+          class="categories-page__row"
+          id="category-row-еда"
+          type="button"
+        >
+          <span
+            class="categories-page__row-name"
+          >
+            Еда
+          </span>
+          <span
+            aria-hidden="true"
+            class="categories-page__row-bar"
+          >
+            <span
+              class="categories-page__row-fill"
+              style="width: 72%;"
+            />
+          </span>
+          <span
+            class="categories-page__row-count"
+          >
+            2
+             
+            траты
+          </span>
+          <span
+            class="categories-page__row-value"
+          >
+            1 800,00
+             ₽ (
+            30,3
+            %)
+          </span>
+        </button>
+      </div>
+      <div
+        class="categories-page__entry"
+      >
+        <button
+          aria-expanded="false"
+          class="categories-page__row"
+          id="category-row-прочее"
+          type="button"
+        >
+          <span
+            class="categories-page__row-name"
+          >
+            Прочее
+          </span>
+          <span
+            aria-hidden="true"
+            class="categories-page__row-bar"
+          >
+            <span
+              class="categories-page__row-fill"
+              style="width: 40%;"
+            />
+          </span>
+          <span
+            class="categories-page__row-count"
+          >
+            2
+             
+            траты
+          </span>
+          <span
+            class="categories-page__row-value"
+          >
+            1 000,00
+             ₽ (
+            16,8
+            %)
+          </span>
+        </button>
+      </div>
+      <div
+        class="categories-page__entry"
+      >
+        <button
+          aria-expanded="false"
+          class="categories-page__row"
+          id="category-row-кафе"
+          type="button"
+        >
+          <span
+            class="categories-page__row-name"
+          >
+            Кафе
+          </span>
+          <span
+            aria-hidden="true"
+            class="categories-page__row-bar"
+          >
+            <span
+              class="categories-page__row-fill"
+              style="width: 18%;"
+            />
+          </span>
+          <span
+            class="categories-page__row-count"
+          >
+            1
+             
+            трата
+          </span>
+          <span
+            class="categories-page__row-value"
+          >
+            450,00
+             ₽ (
+            7,6
+            %)
+          </span>
+        </button>
+      </div>
+      <div
+        class="categories-page__entry"
+      >
+        <button
+          aria-expanded="false"
+          class="categories-page__row"
+          id="category-row-транспорт"
+          type="button"
+        >
+          <span
+            class="categories-page__row-name"
+          >
+            Транспорт
+          </span>
+          <span
+            aria-hidden="true"
+            class="categories-page__row-bar"
+          >
+            <span
+              class="categories-page__row-fill"
+              style="width: 8%;"
+            />
+          </span>
+          <span
+            class="categories-page__row-count"
+          >
+            1
+             
+            трата
+          </span>
+          <span
+            class="categories-page__row-value"
+          >
+            200,00
+             ₽ (
+            3,4
+            %)
+          </span>
+        </button>
+      </div>
+    </div>
+  </section>
+</section>
+`;

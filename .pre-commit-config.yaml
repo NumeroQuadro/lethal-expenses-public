@@ -1,0 +1,9 @@
+repos:
+  - repo: local
+    hooks:
+      - id: parser-pytest-cov
+        name: parser pytest coverage
+        entry: bash -lc 'cd parser && pytest'
+        language: system
+        pass_filenames: false
+        files: ^parser/

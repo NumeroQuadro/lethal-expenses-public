@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/JetBrainsMono-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'VT323';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/VT323-Regular.woff2') format('woff2');
+}
+
+:root {
+  --bg-0: #000000;
+  --bg-1: #0a0303;
+  --fg-0: #d23a2a;
+  --fg-1: #8a2419;
+  --fg-dim: #5a1a12;
+  --accent: #ffcc00;
+  --grid: #2a0a06;
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
+  --display: 'VT323', 'JetBrains Mono', ui-monospace, monospace;
+  --row-h: 28px;
+  --gutter: 16px;
+}

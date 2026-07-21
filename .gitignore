@@ -1,0 +1,59 @@
+# Personal statements and generated financial data
+parser/pdfs/
+parser/data/
+parser/external_accounts.yaml
+web/src/data/transactions.json
+*.pdf
+!parser/tests/fixtures/**/*.pdf
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.coverage
+**/.coverage
+.hypothesis/
+**/.hypothesis/
+.pytest_cache/
+**/.pytest_cache/
+.ruff_cache/
+**/.ruff_cache/
+
+# Node, builds, and browser tests
+node_modules/
+dist/
+web/dist/
+web/playwright-report/
+web/test-results/
+.playwright-cli/
+output/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+
+# Local databases, notes, and agent state
+.dolt/
+*.db
+*.sqlite
+*.sqlite3
+scratch/
+DISCOVERY.md
+parser/PARSER_GAPS.md
+.serena/
+.beads/
+.codex/
+.claude/
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
